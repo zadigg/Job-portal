@@ -7,6 +7,7 @@ Recruitment Processing System that is time and effort effective system for Job S
 providers.
 
 Functional Requirements
+
 Functional Requirements are those that refer to the functionality of the system, i.e. what services
 it will provide to the user. Statements of services the system should provide how the system should
 react to particular inputs and how the system should behave in particular situations.
