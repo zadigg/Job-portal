@@ -1,0 +1,11 @@
+1. A search engine for the Employer to search for Job Seekers with a particular
+Qualification/Experience in a certain Field.
+
+2. The Job Seeker should have the option of updating and posting his C.V
+
+3. The employer to select an applicant, view applicant detail, view resume, and view resume.
+
+4. The job seeker should have an option to search job, view job detail, apply for job, view
+jobs based on their category.
+
+5. Employers should be notified of any job seeker has shown interest in their vacancy.

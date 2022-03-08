@@ -1,0 +1,59 @@
+@media (min-width:1300px){.navbar-collapse.collapse{}
+}
+@media (min-width:1200px) and (max-width:1299px){header .navbar-collapse.collapse{width:60%;}
+.container{width:1170px;}
+}
+@media (min-width:992px) and (max-width:1199px){.container{width:970px;}
+.browse_by.panel > .list-group .list-group-item::before{display:none;}
+.empWelcome-horizontal-blue::before{margin-left:-16%;}
+.empWelcome-horizontal *{font-weight:normal;}
+.empWelcome-horizontal .postJobBtn{margin-left:-16px;}
+.empWelcome-horizontal .Raleway{margin-left:-58px;margin-right:10px;}
+}
+@media (min-width:768px) and (max-width:991px){.mob-fix{display:block;}
+.browse_by.panel > .list-group .list-group-item::before{display:none;}
+.RecruiterSidebarHeader{font-size:16px;}
+.RecruiterSidebarBody{margin-left:30px;}
+.footerLogo{margin-top:20px;}
+.footerLogo img{max-height:86px;}
+.LastRow{margin-bottom:200px;}
+.footerLinks{padding-left:15px;}
+.FeaturedEmpRow{padding-bottom:10px !important;}
+.tab-content{border-radius:4px;padding:0px 4px 15px 15px;}
+.comp_premium .comp_jobs{font-size:13px;}
+.empWelcome-horizontal-orange h1{margin:5px 15px 0px;padding:0px;font-size:22px;line-height:19px;display:block;}
+.empWelcome-horizontal .alreadyRegistered{padding:0px;display:block;margin:-5px 0px 0px;line-height:41px;}
+.topbar_wrapper .home_tagline span{font-size:37px;}
+}
+@media (min-width:480px) and (max-width:766px){.topbar_wrapper .home_tagline span{font-size:22px;line-height:50px;}
+.search_bar_background{top:231px !important;}
+.empWelcome-horizontal .alreadyRegistered{padding:0px;display:inline-block;margin:0px;line-height:41px;vertical-align:middle;}
+.LastRow{margin-bottom:200px;}
+.step-by-text{font-size:13px;margin-left:25px;}
+.step-by-inner-img{height:75px;width:75px;}
+.step-by-inner-img img{margin:-15px -18px;}
+.RecruiterSidebarHeader{font-size:16px;}
+.RecruiterSidebarBody{margin-left:30px;}
+.mobrow > h1{font-size:36px;padding-top:55px;}
+.mobile_wrapper{background-size:cover !important;}
+.RecruiterSidebar{position:fixed;top:113px;}
+.comp_premium .comp_jobs{color:#555;font-size:14px;}
+.empWelcome-horizontal-orange h1{margin:0px;padding:6px 6px 0px !important;font-size:24px;display:block;line-height:19px;letter-spacing:1px;padding-bottom:0px;}
+.topbar_wrapper .home_tagline{font-size:45px;}
+header .navbar-header{height:85px;}
+header .navbar-collapse.collapse{display:none !important;}
+header .navbar-collapse.collapse.in{width:103%;display:block !important;padding-right:15px !important;margin-right:0px;float:none;}
+.ej-menu li ul li{display:inline-block;min-width:50px;}
+nav ul li{height:auto;}
+.navbar.bigger .ej-menu > li > a.active{height:46px;}
+.navbar.bigger .ej-menu > li > a{height:45px;}
+}
+@media (max-width:480px){.topbar_wrapper .home_tagline span{font-size:18px;line-height:50px;}
+.search_bar_background{top:220px !important;}
+.mobile_wrapper{background-size:cover !important;}
+.step-by-text{font-size:13px;margin-left:25px;}
+.step-by-inner-img{height:75px;width:75px;}
+.step-by-inner-img img{margin:-15px -18px;}
+.stepSeparator{height:72px;}
+.LastRow{margin-bottom:250px;}
+}
