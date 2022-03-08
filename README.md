@@ -1,6 +1,7 @@
 # Job-portal
 
 General Objective
+
 The general objective of job portal System is To providing web-based and centralized
 Recruitment Processing System that is time and effort effective system for Job Seekers and job
 providers.
