@@ -63,7 +63,8 @@ if(isset($_POST["submit"])){
                 <input type="text" placeholder="Enter Password" name="pass" id="pass" required>
      
                 <label for="Phone number"><b>Phone Number</b></label>
-                <input type="text" placeholder="Enter Phone_number" name="phone" id="phone" required>
+                <input type="text" placeholder="Enter Phone_number" name="phone" maxlength = "10" id="phone" required>
+
 
                 <label for="country"><b>Country</b></label>
                 <input type="text" placeholder="Enter country" name="country" id="country" required>

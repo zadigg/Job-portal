@@ -68,6 +68,7 @@ include_once('../class/job.php');
 								              </div>
 							              </div>
 			              			</div>
+                          // 
 			              			<div class="col-md">
 			              				<div class="form-group">
 			              					<div class="form-field">
@@ -95,7 +96,36 @@ include_once('../class/job.php');
 								              </div>
 							              </div>
 			              			</div>
-			              		
+                          <!--  -->
+			              			<div class="col-md">
+			              				<div class="form-group">
+			              					<div class="form-field">
+				              					<div class="select-wrap">
+						                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+						                      <select name="catagory" id="catagory" class="form-control" >
+                                              <option  value=""> Select Catagory</option>
+
+                                   <?php
+                                   
+
+                                        $role_catagory = new Job();
+                                        $query = $role_catagory->roleCatagoryJobseekerSearchList();
+
+                                    while ($row = mysqli_fetch_array($query)){
+                                     ?>   
+                                    <option  value="<?php $row['role_id']; ?>"> <?php echo $row['role_cata']; ?></option>
+                                <?php    
+                                }
+                                ?>
+						                   
+						                        
+						                      </select>
+						                    </div>
+								              </div>
+							              </div>
+			              			</div>
+
+                          <!--  -->
 			              			<div class="col-md">
 			              				<div class="form-group">
 			              					<div class="form-field">

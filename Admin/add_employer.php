@@ -59,7 +59,7 @@
                 </div>
                 <div class="form-group">
                   <label for="tel">phone</label>
-                  <input type="phone"  name="phone" id="phone" class="form-control" placeholder="0924029960" " > 
+                  <input type="phone"  name="phone" id="phone" class="form-control" maxlength = "10"  placeholder="0924029960" " > 
                 </div>
               
                 <div class="form-group">
